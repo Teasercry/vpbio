@@ -52,6 +52,8 @@
     --bs-primary-font: #212832;
     --bs-secondary: #544837;
     --bs-primary: var(--bs-blue);
+    --bs-primary-hover: #87d53d;
+    --bs-primary-border-hover: #a9d57f;
     --bs-success: var(--bs-green);
     --bs-info: var(--bs-teal);
     --bs-warning: var(--bs-yellow);
@@ -17275,7 +17277,7 @@ iframe {
 
 .link-900:hover,
 .link-900:focus {
-    color: var(--bs-yellow) !important;
+    color: var(--bs-green) !important;
 }
 
 .link-1000 {

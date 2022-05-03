@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  nginx_vpbio:
+    image: nginx:1.17.6-alpine
+    container_name: nginx_vpbio
+    volumes:
+      - ../:/usr/share/nginx/html/
+    ports:
+     - "8000:80"
